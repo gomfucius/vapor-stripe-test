@@ -1,0 +1,3 @@
+*.xcodeproj
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
