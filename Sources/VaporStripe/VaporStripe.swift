@@ -4,8 +4,16 @@ import HTTP
 
 public enum Currency: String 
 {
-    case usd = "usd"
+    case aud = "aud"
+    case cad = "cad"
+    case dkk = "dkk"
+    case eur = "eur"
+    case gpd = "gpd"
     case jpy = "jpy"
+    case nok = "nok"
+    case usd = "usd"
+    case sek = "sek"
+    case sgd = "sgd"
 }
 
 public final class VaporStripe
