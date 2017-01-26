@@ -70,9 +70,9 @@ extension Node {
 }
 
 public struct Result {
-    let status: ResponseStatus
-    let headers: [HTTP.HeaderKey: String]
-    let json: JSON?
+    public let status: ResponseStatus
+    public let headers: [HTTP.HeaderKey: String]
+    public let json: JSON?
     
     public init(status: ResponseStatus, headers: [HTTP.HeaderKey: String], json: JSON?) {
         self.status = status
