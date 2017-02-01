@@ -3,6 +3,7 @@
 ![Swift](http://img.shields.io/badge/swift-3.0.2-brightgreen.svg)
 ![Vapor](https://img.shields.io/badge/Vapor-1.3.11-brightgreen.svg)
 [![Build Status](https://travis-ci.org/gomfucius/vapor-stripe.svg?branch=master)](https://travis-ci.org/gomfucius/vapor-stripe)
+[![codecov.io](https://img.shields.io/codecov/c/github/gomfucius/vapor-stripe.svg)
 
 💰 Stripe API for Vapor Swift
 
