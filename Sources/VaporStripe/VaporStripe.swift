@@ -50,7 +50,7 @@ public final class VaporStripe {
 // Taken from StructuredData+FormURLEncoded.swift.
 // TODO: Figure out how to use it without having to `import Vapor`
 extension Node {
-    fileprivate func vsFormURLEncoded() throws -> Bytes {
+    func vsFormURLEncoded() throws -> Bytes {
         guard case .object(let dict) = self else {
             return []
         }
