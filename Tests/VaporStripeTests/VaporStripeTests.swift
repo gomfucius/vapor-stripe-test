@@ -65,6 +65,8 @@ class VaporStripeTests: XCTestCase {
         XCTAssertEqual(responseStatus10, .serverError)
         let responseStatus11 = ResponseStatus(statusCode: 504)
         XCTAssertEqual(responseStatus11, .serverError)
+        let responseStatus12 = ResponseStatus(statusCode: 1978263)
+        XCTAssertEqual(responseStatus12, .badRequest)
     }
     
     func testVsFormEncoded() throws {
