@@ -1,7 +1,7 @@
 # VaporStripe
 
-![Swift](http://img.shields.io/badge/swift-3.0.2-brightgreen.svg)
-![Vapor](https://img.shields.io/badge/Vapor-1.4.1-brightgreen.svg)
+![Swift](http://img.shields.io/badge/swift-3.1.0-brightgreen.svg)
+![Vapor](https://img.shields.io/badge/Vapor-1.5.13-brightgreen.svg)
 ![Build Status](https://travis-ci.org/gomfucius/vapor-stripe.svg?branch=master)
 ![codecov.io](https://img.shields.io/codecov/c/github/gomfucius/vapor-stripe.svg)
 
